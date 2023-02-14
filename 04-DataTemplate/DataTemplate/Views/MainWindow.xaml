@@ -16,6 +16,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
         <ContentControl Content="{Binding ExampleClass}">
@@ -35,7 +36,9 @@
             </ContentControl.ContentTemplate>
         </ContentControl>
 
-        <ContentControl Grid.Column="1" Content="{Binding ExampleClass}" ContentTemplate="{DynamicResource ExampleClassDataTemplate}">
-        </ContentControl>
+        <ContentControl Grid.Column="1" Content="{Binding ExampleClass}" ContentTemplate="{DynamicResource ExampleClassDataTemplate}" />
+
+        <ListBox Grid.Column="2" ItemsSource="{Binding ExampleClassList}" ItemTemplate="{DynamicResource ExampleClassDataTemplate}"
+                 HorizontalContentAlignment="Stretch"/>
     </Grid>
 </Window>
