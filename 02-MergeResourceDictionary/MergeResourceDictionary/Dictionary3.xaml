@@ -1,4 +1,9 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Dictionary1.xaml"/>
+        <ResourceDictionary Source="Dictionary2.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    <sys:String x:Key="StringFromDictionary3">StringFromDictionary3</sys:String>
 </ResourceDictionary>
