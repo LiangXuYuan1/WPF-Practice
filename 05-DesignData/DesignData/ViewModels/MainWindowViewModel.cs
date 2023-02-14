@@ -27,10 +27,19 @@ namespace DesignData.ViewModels
             set => SetProperty(ref data2, value);
         }
 
+        private string[] items;
+
+        public string[] Items
+        {
+            get => items;
+            set => SetProperty(ref items, value);
+        }
+
         public MainWindowViewModel()
         {
             Data1 = "String1 From MainWindowViewModel";
             Data2 = "String2 From MainWindowViewModel";
+            Items = new[] { "Item1", "Item2", "Item3" };
         }
     }
 }

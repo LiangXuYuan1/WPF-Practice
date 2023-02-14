@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="350" Width="525" >
@@ -11,6 +12,20 @@
         <StackPanel>
             <TextBlock Text="{Binding Data1}" d:Text="String1 From DesignData"/>
             <TextBlock Text="{Binding Data2}" d:Text="String2 From DesignData"/>
+            <ListView ItemsSource="{Binding Items}">
+                <d:ListView.ItemsSource>
+                    <x:Array Type="{x:Type system:String}">
+                        <system:String>Item One</system:String>
+                        <system:String>Item Two</system:String>
+                        <system:String>Item Three</system:String>
+                    </x:Array>
+                </d:ListView.ItemsSource>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding }" d:Text="{Binding .}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackPanel>
     </Grid>
 </Window>
