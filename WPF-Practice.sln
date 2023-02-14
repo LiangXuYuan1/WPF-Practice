@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-MoreResourceDictionary",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreResourceDictionary", "01-MoreResourceDictionary\MoreResourceDictionary\MoreResourceDictionary.csproj", "{5E611F84-25E5-4E5E-97DF-13EFDBA9A80E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-MergeResourceDictionary", "02-MergeResourceDictionary", "{916BD8AF-C31E-47F9-93FF-C61FACAB2577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeResourceDictionary", "02-MergeResourceDictionary\MergeResourceDictionary\MergeResourceDictionary.csproj", "{036EFC2A-412B-47A7-AABD-E872CF72011C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{5E611F84-25E5-4E5E-97DF-13EFDBA9A80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E611F84-25E5-4E5E-97DF-13EFDBA9A80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E611F84-25E5-4E5E-97DF-13EFDBA9A80E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036EFC2A-412B-47A7-AABD-E872CF72011C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036EFC2A-412B-47A7-AABD-E872CF72011C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036EFC2A-412B-47A7-AABD-E872CF72011C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036EFC2A-412B-47A7-AABD-E872CF72011C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5C5BC81C-F719-42F0-B0C7-F4CD4B0ABA01} = {CDE0DC7C-4482-4629-B536-51A2BA9B8FB8}
 		{5E611F84-25E5-4E5E-97DF-13EFDBA9A80E} = {D95775DD-FD16-4439-BB51-323D93D59C02}
+		{036EFC2A-412B-47A7-AABD-E872CF72011C} = {916BD8AF-C31E-47F9-93FF-C61FACAB2577}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13637C4E-ABCE-4BAC-8D0F-51D87880DB6F}
