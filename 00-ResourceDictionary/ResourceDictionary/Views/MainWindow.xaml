@@ -1,11 +1,21 @@
 ﻿<Window x:Class="ResourceDictionary.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:prism="http://prismlibrary.com/"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="{Binding Title}" Height="350" Width="525" >
+        Title="{Binding Title}" Height="350" Width="525">
+    <Window.Resources>
+        <ResourceDictionary>
+            <Style x:Key="StandardButtonStyle" TargetType="Button">
+                <Style.Setters>
+                    <Setter Property="Width" Value="100" />
+                    <Setter Property="Height" Value="40" />
+                    <Setter Property="FontSize" Value="16" />
+                </Style.Setters>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
     <Grid>
-        <!-- <ContentControl prism:RegionManager.RegionName="ContentRegion" /> -->
-        <Button Content="Button" />
+        <Button Style="{DynamicResource StandardButtonStyle}" Content="Button" />
     </Grid>
 </Window>
