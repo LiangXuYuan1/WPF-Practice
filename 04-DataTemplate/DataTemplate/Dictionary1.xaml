@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:DataTemplate.ViewModels">
+    <DataTemplate x:Key="ExampleClassDataTemplate" DataType="{x:Type vm:ExampleClass}">
+        <StackPanel>
+            <TextBlock Text="{Binding ExampleInt}" />
+            <TextBlock Text="{Binding ExampleLong}" />
+            <TextBlock Text="{Binding ExampleDouble}" />
+            <TextBlock Text="{Binding ExampleBool}" />
+            <TextBlock Text="{Binding ExampleString}" />
+            <GroupBox Header="ExampleList" BorderBrush="Aqua">
+                <ListBox ItemsSource="{Binding ExampleList}" />
+            </GroupBox>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>
