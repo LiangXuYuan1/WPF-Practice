@@ -3,8 +3,46 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:prism="http://prismlibrary.com/"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="{Binding Title}" Height="350" Width="525" >
+        Title="{Binding Title}" Height="350" Width="625">
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <ListBox Background="Aqua">
+            <Button Content="Button1" />
+            <Button Content="Button2" />
+            <Button Content="Button3" />
+            <Button Content="Button4" />
+            <Button Content="Button5" />
+        </ListBox>
+
+        <ListBox Grid.Column="1" Background="Bisque" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Button1" />
+            <Button Content="Button2" />
+            <Button Content="Button3" />
+            <Button Content="Button4" />
+            <Button Content="Button5" />
+        </ListBox>
+
+        <ListBox Grid.Column="2" Background="Aquamarine" HorizontalContentAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Button1" />
+            <Button Content="Button2" />
+            <Button Content="Button3" />
+            <Button Content="Button4" />
+            <Button Content="Button5" />
+        </ListBox>
+
+        <ListBox Grid.Column="3" Background="LightPink" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                 HorizontalContentAlignment="Stretch">
+            <Button Content="Button1" />
+            <Button Content="Button2" />
+            <Button Content="Button3" />
+            <Button Content="Button4" />
+            <Button Content="Button5" />
+        </ListBox>
     </Grid>
 </Window>
