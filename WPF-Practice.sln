@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Practice", "WPF-Practice\WPF-Practice.csproj", "{205221DE-9FED-45F9-8B0D-185B8B04B76E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-ResourceDictionary", "00-ResourceDictionary", "{CDE0DC7C-4482-4629-B536-51A2BA9B8FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceDictionary", "00-ResourceDictionary\ResourceDictionary\ResourceDictionary.csproj", "{5C5BC81C-F719-42F0-B0C7-F4CD4B0ABA01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{205221DE-9FED-45F9-8B0D-185B8B04B76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{205221DE-9FED-45F9-8B0D-185B8B04B76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{205221DE-9FED-45F9-8B0D-185B8B04B76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5BC81C-F719-42F0-B0C7-F4CD4B0ABA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5BC81C-F719-42F0-B0C7-F4CD4B0ABA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5BC81C-F719-42F0-B0C7-F4CD4B0ABA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5BC81C-F719-42F0-B0C7-F4CD4B0ABA01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C5BC81C-F719-42F0-B0C7-F4CD4B0ABA01} = {CDE0DC7C-4482-4629-B536-51A2BA9B8FB8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13637C4E-ABCE-4BAC-8D0F-51D87880DB6F}
