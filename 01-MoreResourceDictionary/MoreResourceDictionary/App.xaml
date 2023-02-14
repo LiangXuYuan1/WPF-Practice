@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:MoreResourceDictionary"
              xmlns:prism="http://prismlibrary.com/" >
     <Application.Resources>
-         
+         <ResourceDictionary x:Key="FirstDictionary" Source="FirstDictionary.xaml"/>
     </Application.Resources>
 </prism:PrismApplication>
