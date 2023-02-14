@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-ListBox", "03-ListBox", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox", "03-ListBox\ListBox\ListBox.csproj", "{D733F796-387C-472F-83B7-133FF6558958}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-DataTemplate", "04-DataTemplate", "{63BC365D-A6BF-4EE4-9004-BC2E9A81CC33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTemplate", "04-DataTemplate\DataTemplate\DataTemplate.csproj", "{A6B20EA0-8027-4942-9E05-DADD036A85DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{D733F796-387C-472F-83B7-133FF6558958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D733F796-387C-472F-83B7-133FF6558958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D733F796-387C-472F-83B7-133FF6558958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B20EA0-8027-4942-9E05-DADD036A85DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B20EA0-8027-4942-9E05-DADD036A85DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B20EA0-8027-4942-9E05-DADD036A85DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B20EA0-8027-4942-9E05-DADD036A85DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,7 @@ Global
 		{5E611F84-25E5-4E5E-97DF-13EFDBA9A80E} = {D95775DD-FD16-4439-BB51-323D93D59C02}
 		{036EFC2A-412B-47A7-AABD-E872CF72011C} = {916BD8AF-C31E-47F9-93FF-C61FACAB2577}
 		{D733F796-387C-472F-83B7-133FF6558958} = {D6E8D82D-1622-468D-8EBC-353643FC029C}
+		{A6B20EA0-8027-4942-9E05-DADD036A85DD} = {63BC365D-A6BF-4EE4-9004-BC2E9A81CC33}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13637C4E-ABCE-4BAC-8D0F-51D87880DB6F}
