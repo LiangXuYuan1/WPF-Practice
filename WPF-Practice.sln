@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-MergeResourceDictionary"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeResourceDictionary", "02-MergeResourceDictionary\MergeResourceDictionary\MergeResourceDictionary.csproj", "{036EFC2A-412B-47A7-AABD-E872CF72011C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-ListBox", "03-ListBox", "{D6E8D82D-1622-468D-8EBC-353643FC029C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox", "03-ListBox\ListBox\ListBox.csproj", "{D733F796-387C-472F-83B7-133FF6558958}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{036EFC2A-412B-47A7-AABD-E872CF72011C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{036EFC2A-412B-47A7-AABD-E872CF72011C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{036EFC2A-412B-47A7-AABD-E872CF72011C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D733F796-387C-472F-83B7-133FF6558958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D733F796-387C-472F-83B7-133FF6558958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D733F796-387C-472F-83B7-133FF6558958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D733F796-387C-472F-83B7-133FF6558958}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +55,7 @@ Global
 		{5C5BC81C-F719-42F0-B0C7-F4CD4B0ABA01} = {CDE0DC7C-4482-4629-B536-51A2BA9B8FB8}
 		{5E611F84-25E5-4E5E-97DF-13EFDBA9A80E} = {D95775DD-FD16-4439-BB51-323D93D59C02}
 		{036EFC2A-412B-47A7-AABD-E872CF72011C} = {916BD8AF-C31E-47F9-93FF-C61FACAB2577}
+		{D733F796-387C-472F-83B7-133FF6558958} = {D6E8D82D-1622-468D-8EBC-353643FC029C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13637C4E-ABCE-4BAC-8D0F-51D87880DB6F}
