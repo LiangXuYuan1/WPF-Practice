@@ -11,9 +11,17 @@ namespace DesignDataContext.ViewModels
             set { SetProperty(ref _title, value); }
         }
 
+        private string example;
+
+        public string Example
+        {
+            get => example;
+            set => SetProperty(ref example, value);
+        }
+
         public MainWindowViewModel()
         {
-
+            Example = "String From ViewModel";
         }
     }
 }
