@@ -5,6 +5,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
+    <Page Remove="Design\DesignTimeViewModel.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <DesignDataWithDesignTimeCreatableTypes Include="Design\DesignTimeViewModel.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </DesignDataWithDesignTimeCreatableTypes>
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
   </ItemGroup>
 </Project>
