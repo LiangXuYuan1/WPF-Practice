@@ -1,4 +1,5 @@
-﻿using Prism.Mvvm;
+﻿using Prism.Commands;
+using Prism.Mvvm;
 
 namespace Binding.ViewModels
 {
@@ -11,9 +12,16 @@ namespace Binding.ViewModels
             set { SetProperty(ref _title, value); }
         }
 
+        public DelegateCommand TestCommand { get; set; }
+
         public MainWindowViewModel()
         {
+            TestCommand = new DelegateCommand(Test);
+        }
 
+        private static void Test()
+        {
+            System.Diagnostics.Debug.WriteLine("Test");
         }
     }
 }
