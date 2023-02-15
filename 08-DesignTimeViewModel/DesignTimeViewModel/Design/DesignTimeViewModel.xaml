@@ -1,3 +1,6 @@
-﻿<MainWindowViewModel xmlns="clr-namespace:DesignTimeViewModel.ViewModels">
-
+﻿<MainWindowViewModel xmlns="clr-namespace:DesignTimeViewModel.ViewModels"
+                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <MainWindowViewModel.TestString>
+        <sys:String>This is a test string from resource file.</sys:String>
+    </MainWindowViewModel.TestString>
 </MainWindowViewModel>

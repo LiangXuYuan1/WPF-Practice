@@ -24,25 +24,25 @@ namespace DesignTimeViewModel.ViewModels
             set => SetProperty(ref testString, value);
         }
 
-        // challenge 2: a string List
-
-        private List<string> testStringList;
-
-        public List<string> TestStringList
-        {
-            get => testStringList;
-            set => SetProperty(ref testStringList, value);
-        }
-
-        // challenge 3: a string ObservableCollection
-
-        private ObservableCollection<string> testStringObservableCollection;
-
-        public ObservableCollection<string> TestStringObservableCollection
-        {
-            get => testStringObservableCollection;
-            set => SetProperty(ref testStringObservableCollection, value);
-        }
+        // // challenge 2: a string List
+        //
+        // private List<string> testStringList;
+        //
+        // public List<string> TestStringList
+        // {
+        //     get => testStringList;
+        //     set => SetProperty(ref testStringList, value);
+        // }
+        //
+        // // challenge 3: a string ObservableCollection
+        //
+        // private ObservableCollection<string> testStringObservableCollection;
+        //
+        // public ObservableCollection<string> TestStringObservableCollection
+        // {
+        //     get => testStringObservableCollection;
+        //     set => SetProperty(ref testStringObservableCollection, value);
+        // }
 
         // challenge 4: a custom class
 
@@ -52,7 +52,7 @@ namespace DesignTimeViewModel.ViewModels
 
         public MainWindowViewModel()
         {
-
+            TestString = "This is a test string from MainWindowViewModel()";
         }
     }
 }
