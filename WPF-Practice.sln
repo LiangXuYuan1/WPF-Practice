@@ -5,27 +5,31 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-ResourceDictionary", "00-ResourceDictionary", "{CDE0DC7C-4482-4629-B536-51A2BA9B8FB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceDictionary", "00-ResourceDictionary\ResourceDictionary\ResourceDictionary.csproj", "{5C5BC81C-F719-42F0-B0C7-F4CD4B0ABA01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResourceDictionary", "00-ResourceDictionary\ResourceDictionary\ResourceDictionary.csproj", "{5C5BC81C-F719-42F0-B0C7-F4CD4B0ABA01}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-MoreResourceDictionary", "01-MoreResourceDictionary", "{D95775DD-FD16-4439-BB51-323D93D59C02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreResourceDictionary", "01-MoreResourceDictionary\MoreResourceDictionary\MoreResourceDictionary.csproj", "{5E611F84-25E5-4E5E-97DF-13EFDBA9A80E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreResourceDictionary", "01-MoreResourceDictionary\MoreResourceDictionary\MoreResourceDictionary.csproj", "{5E611F84-25E5-4E5E-97DF-13EFDBA9A80E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-MergeResourceDictionary", "02-MergeResourceDictionary", "{916BD8AF-C31E-47F9-93FF-C61FACAB2577}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeResourceDictionary", "02-MergeResourceDictionary\MergeResourceDictionary\MergeResourceDictionary.csproj", "{036EFC2A-412B-47A7-AABD-E872CF72011C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeResourceDictionary", "02-MergeResourceDictionary\MergeResourceDictionary\MergeResourceDictionary.csproj", "{036EFC2A-412B-47A7-AABD-E872CF72011C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-ListBox", "03-ListBox", "{D6E8D82D-1622-468D-8EBC-353643FC029C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox", "03-ListBox\ListBox\ListBox.csproj", "{D733F796-387C-472F-83B7-133FF6558958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListBox", "03-ListBox\ListBox\ListBox.csproj", "{D733F796-387C-472F-83B7-133FF6558958}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-DataTemplate", "04-DataTemplate", "{63BC365D-A6BF-4EE4-9004-BC2E9A81CC33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTemplate", "04-DataTemplate\DataTemplate\DataTemplate.csproj", "{A6B20EA0-8027-4942-9E05-DADD036A85DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTemplate", "04-DataTemplate\DataTemplate\DataTemplate.csproj", "{A6B20EA0-8027-4942-9E05-DADD036A85DD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-DesignData", "05-DesignData", "{83DEDCE7-CFD2-4320-9BD8-FD28E6787812}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignData", "05-DesignData\DesignData\DesignData.csproj", "{1D6F661B-BAFC-4C07-8E74-304125A18469}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignData", "05-DesignData\DesignData\DesignData.csproj", "{1D6F661B-BAFC-4C07-8E74-304125A18469}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Binding", "06-Binding", "{56DB7C3C-5EBA-406F-B8E7-C6214705E2A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "06-Binding\Binding\Binding.csproj", "{F44E2AE6-26C8-484E-A087-83601E383D89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,10 @@ Global
 		{1D6F661B-BAFC-4C07-8E74-304125A18469}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D6F661B-BAFC-4C07-8E74-304125A18469}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D6F661B-BAFC-4C07-8E74-304125A18469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44E2AE6-26C8-484E-A087-83601E383D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44E2AE6-26C8-484E-A087-83601E383D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44E2AE6-26C8-484E-A087-83601E383D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44E2AE6-26C8-484E-A087-83601E383D89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +76,7 @@ Global
 		{D733F796-387C-472F-83B7-133FF6558958} = {D6E8D82D-1622-468D-8EBC-353643FC029C}
 		{A6B20EA0-8027-4942-9E05-DADD036A85DD} = {63BC365D-A6BF-4EE4-9004-BC2E9A81CC33}
 		{1D6F661B-BAFC-4C07-8E74-304125A18469} = {83DEDCE7-CFD2-4320-9BD8-FD28E6787812}
+		{F44E2AE6-26C8-484E-A087-83601E383D89} = {56DB7C3C-5EBA-406F-B8E7-C6214705E2A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13637C4E-ABCE-4BAC-8D0F-51D87880DB6F}
